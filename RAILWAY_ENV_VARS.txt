@@ -1,0 +1,26 @@
+# Railway environment variables for PBRS Meeting App
+# Replace placeholders with values from Railway DB plugin or your secrets
+APP_NAME=PBRS Meeting App
+APP_ENV=production
+APP_DEBUG=false
+APP_KEY=base64:8m41Nea3HLppR/CtKq822afHD/pvqrjw4qd78uSU2Ro=
+APP_URL=https://pbrstechsols.com
+
+DB_CONNECTION=mysql
+DB_HOST=<RAILWAY_DB_HOST>
+DB_PORT=<RAILWAY_DB_PORT>
+DB_DATABASE=<RAILWAY_DB_NAME>
+DB_USERNAME=<RAILWAY_DB_USERNAME>
+DB_PASSWORD=<RAILWAY_DB_PASSWORD>
+
+MAIL_MAILER=smtp
+MAIL_SCHEME=tls
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=das.iamdebraj@gmail.com
+MAIL_PASSWORD=<YOUR_GMAIL_APP_PASSWORD>
+MAIL_FROM_ADDRESS=das.iamdebraj@gmail.com
+MAIL_FROM_NAME="PBRS Meeting App"
+
+SESSION_DRIVER=database
+SESSION_DOMAIN=.pbrstechsols.com
